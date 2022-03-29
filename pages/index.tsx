@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import CharacterInfo from "../components/CharacterInfo";
 import CharactersComponent from "../components/Characters";
-import styles from "../styles/Home.module.css";
 import MainTemplate from "../templates/MainTemplate";
 
 interface Props {
@@ -17,7 +16,6 @@ interface Props {
 const Home: NextPage<Props> = ({ charactersResult }) => {
   const [characters, setCharacters] = useState(charactersResult);
 
-  console.log(charactersResult);
   const router = useRouter();
 
   const getCharacter = (id?: string | string[]) => characters.find((character: any) => character.id === id);

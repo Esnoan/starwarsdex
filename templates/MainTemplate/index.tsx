@@ -2,7 +2,7 @@ import { Grid, Text } from "@nextui-org/react";
 import Head from "next/head";
 import Image from "next/image";
 import { ReactNode } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "./main-template.module.css";
 
 interface MainTemplateProps {
   children: ReactNode;
