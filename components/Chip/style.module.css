@@ -1,0 +1,14 @@
+.chip {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+  border-radius: 9999px;
+
+  padding: 4px 8px;
+  height: 32px;
+
+  margin-right: 4px;
+}
